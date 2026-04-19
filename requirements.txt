@@ -1,0 +1,12 @@
+crewai
+langchain
+groq
+python-dotenv
+streamlit
+tavily-python
+faiss-cpu
+sentence-transformers
+transformers
+torch
+torchvision
+scikit-learn

@@ -1,0 +1,23 @@
+# Virtual environment
+venv/
+myenv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# Models / embeddings cache
+*.bin
+*.pt
+*.safetensors
+
+# FAISS / memory data 
+*.faiss
+*.pkl
+
+# OS files
+.DS_Store
+Thumbs.db
