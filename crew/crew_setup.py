@@ -14,4 +14,7 @@ def run_crew(query):
     )
 
     result = crew.kickoff()
-    return result
+    if hasattr(result, "raw"):
+        return result.raw
+    else:
+        return str(result)
